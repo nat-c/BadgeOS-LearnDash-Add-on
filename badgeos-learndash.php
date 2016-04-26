@@ -27,6 +27,10 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>;.
 */
 
+/*
+ * Bug-fix/Edited by Natalia Chriss (Github: nat-c | Email: contact@nataliachriss.com)
+*/
+
 class BadgeOS_LearnDash {
 
 	/**
