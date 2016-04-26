@@ -41,6 +41,7 @@ In addition to all of the out-of-the-box features in BadgeOS core, the BadgeOS L
 *   **Topic:**
 
    *   Complete a specific Topic
+   *   Complete any Topic
 
 *   **Quizzes:**
 
@@ -136,7 +137,7 @@ Thanks for asking!  Please do share back code modifications or enhancements you 
 == Changelog ==
 
 = 1.0.1 =
-* Earn badges for completing specific topics.
+* Earn badges for completing specific topics. --Edit by Natalia Chriss (nat-c)
 
 = 1.0 =
 * BadgeOS LearnDash Add-on says "hello learndash", earns "Hello LearnDash" badge.
