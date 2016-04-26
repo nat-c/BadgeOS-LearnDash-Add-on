@@ -311,7 +311,7 @@ function badgeos_learndash_save_step( $title, $step_id, $step_data ) {
 		// Topic specific
 		elseif ( 'learndash_topic_completed' == $step_data[ 'learndash_trigger' ] ) {
 			// Get Object ID
-			$object_id = (int) $step_data[ 'learndash_lesson_id' ];
+			$object_id = (int) $step_data[ 'learndash_topic_id' ];
 
 			// Set new step title
 			if ( empty( $object_id ) ) {
@@ -421,7 +421,7 @@ function badgeos_learndash_step_js() {
 
 				step_details.learndash_quiz_id = $( '.select-quiz-id', step ).val();
 				step_details.learndash_quiz_grade = $( '.input-quiz-grade', step ).val();
-				step_details.learndash_lesson_id = $( '.select-topic-id', step ).val();
+				step_details.learndash_topic_id = $( '.select-topic-id', step ).val();
 				step_details.learndash_lesson_id = $( '.select-lesson-id', step ).val();
 				step_details.learndash_course_id = $( '.select-course-id', step ).val();
 				step_details.learndash_course_category_id = $( '.select-course-category-id', step ).val();
